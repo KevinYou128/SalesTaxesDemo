@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF4068</color>
+    <color name="colorPrimaryDark">#55FF4068</color>
+    <color name="colorPrimaryWhite">#ffffff</color>
+    <color name="colorBackground">#ffff99ff</color>
+    <color name="colorAccent">#FF4022</color>
+    <color name="colorBackLight">#7a64e3</color>
+    <color name="colorBackDark">#3457a7</color>
+
+    <color name="rsbColorSeekBarDefault">#c3c3c3</color>
+    <color name="rsbColorThumbPressed">#FFE7E7E7</color>
+    <color name="rsbColorThumbDefault">#FFFFFF</color>
+    <color name="rsbColorThumbBorder">#FFD7D7D7</color>
+
+
+    <color name="holo_red_light">#ffff4444</color>
+    <color name="holo_red_dark">#ffcc0000</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="white_a50">#75FFFFFF</color>
+    <color name="white_pressed">#FFCFCFCF</color>
+    <color name="white_forget">#F5F6FA</color>
+    <color name="black">#000000</color>
+    <color name="black_text">#333333</color>
+    <color name="gray_hint">#d5d5d5</color>
+    <color name="gray">#cccccc</color>
+    <color name="gray_main_tab">#FBFBFB</color>
+    <color name="gray_select">#f0f0f0</color>
+    <color name="gray_button">#999999</color>
+    <color name="gray_text">#666666</color>
+    <color name="gray_text_time">#666666</color>
+    <color name="gray_text_list">#6c6c6c</color>
+    <color name="red">#f55053</color>
+    <color name="gold">#d6b351</color>
+    <color name="blue_light">#489ae0</color>
+    <color name="blue_Dark">#2954a2</color>
+    <color name="green">#61cd80</color>
+    <color name="purple">#B271BB</color>
+    <color name="orange">#e77d48</color>
+
+    <color name="divider_color">#d8d8d8</color>
+
+    <color name="google_red">#FFC93437</color>
+    <color name="google_blue">#FF375BF1</color>
+    <color name="google_yellow">#FFF7D23E</color>
+    <color name="google_green">#FF34A350</color>
+
+    <color name="cornflower_blue">#6274e2</color>
+    <color name="cornflower_blue_dark">#303F9F</color>
+    <color name="cornflower_blue_darkest">#2d3a93</color>
+    <color name="gray_light">#e8e8e8</color>
+    <color name="gray_transparent">#a6efefef</color>
+    <color name="gray_dark">#858585</color>
+    <color name="gray_dark_transparent">#ae858585</color>
+    <color name="gray_darkest">#ae282828</color>
+    <color name="black_10">#19000000</color>
+    <color name="ivory">#f8efe6</color>
+    <color name="ivory_dark">#f7e8d9</color>
+    <color name="green_dark">#2da346</color>
+    <color name="brown">#4e342e</color>
+
+    <!--参考firebaseAndroidChat项目-->
+    <color name="sinch_purple">#ff63029d</color>
+    <color name="off_white">#fffafafa</color>
+    <color name="dark_gray">#ffb3b3b3</color>
+    <color name="very_dark_gray">#636363</color>
+    <color name="background">#e9e3dd</color>
+
+    <!-- 按钮字体变更 -->
+    <drawable name="blue_text">#00fff8</drawable>
+    <drawable name="blue_text_pressed">#00cec8</drawable>
+    <drawable name="blue_text_pressed2">#3300fff8</drawable>
+    <drawable name="gray">#cccccc</drawable>
+    
+</resources>

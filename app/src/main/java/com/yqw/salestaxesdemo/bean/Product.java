@@ -15,6 +15,13 @@ public class Product implements Parcelable {
     private int type;//商品税费类型
     private int count;//商品数量
 
+    public Product(int count, String name, double priceTag, int type) {
+        this.name = name;
+        this.type = type;
+        this.priceTag = priceTag;
+        this.count = count;
+    }
+
     public Product(Long id, String name, double priceTag, int type) {
         this.id = id;
         this.name = name;

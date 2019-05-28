@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
     android:orientation="horizontal">
 
-    <EditText
+    <com.yqw.youview.AddSubtractEditText
         android:id="@+id/et_count"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="number"
+        android:layout_marginLeft="@dimen/dp_20"
         android:text="1"/>
     <TextView
         android:id="@+id/tv_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_10"
         android:text="book at"/>
     <EditText
         android:id="@+id/et_price"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
+        android:focusable="false"
+        android:enabled="false"
+        android:layout_marginLeft="@dimen/dp_10"
         android:text="12.49"/>
 </LinearLayout>

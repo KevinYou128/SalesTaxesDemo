@@ -62,6 +62,9 @@ public class Order implements Parcelable {
     public Order() {
     }
 
+    public Order(List<Product> products) {
+        this.products = products;
+    }
     public Order(Long id, List<Product> products) {
         this.id = id;
         this.products = products;

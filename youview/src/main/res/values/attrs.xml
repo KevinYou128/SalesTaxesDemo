@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="rightImageSrc" format="reference"/>
+    <attr name="titleText" format="string"/>
+    <declare-styleable name="TitleBar">
+        <attr name="titleTextColor" format="color"/>
+        <attr name="titleBackground" format="color"/>
+        <attr name="titleText"/>
+        <attr name="titleTextSize"/>
+        <attr name="leftImageSrc" format="reference"/>
+        <attr name="rightImageSrc"/>
+    </declare-styleable>
+    <declare-styleable name="SettingsItemBar">
+        <attr name="itemBackground"/>
+        <attr name="leftTextColor" format="color"/>
+        <attr name="leftText" format="string"/>
+        <attr name="leftTextSize"/>
+        <attr name="rightTextColor" format="color"/>
+        <attr name="rightText" format="string"/>
+        <attr name="rightTextSize"/>
+
+        <attr name="leftImageSrc"/>
+        <attr name="rightImageSrc"/>
+
+        <attr name="topLine_marginLeft"/>
+        <attr name="topLine_marginRight"/>
+        <attr name="topLine_height"/>
+        <attr name="topLine_show"/>
+        <attr name="topLine_color"/>
+        <attr name="bottomLine_marginLeft"/>
+        <attr name="bottomLine_marginRight"/>
+        <attr name="bottomLine_height"/>
+        <attr name="bottomLine_show"/>
+        <attr name="bottomLine_color"/>
+    </declare-styleable>
+    <declare-styleable name="MyEditText">
+        <!--直接使用系统中已定义的语意明确的属性，不用设置format-->
+        <attr name="android:inputType"/>
+        <attr name="android:maxLines"/>
+        <attr name="android:text"/>
+        <attr name="android:maxLength"/>
+        <!--visibilityDown VISIBLE==0 GONE==8-->
+        <attr name="visibilityDown" format="integer"/>
+    </declare-styleable>
+    <!--有加减符号的输入框-->
+    <declare-styleable name="AddSubtractEditText">
+        <attr name="android:text"/>
+    </declare-styleable>
+    <declare-styleable name="InfoDownText">
+        <!--直接使用系统中已定义的语意明确的属性，不用设置format-->
+        <attr name="titleText"/>
+        <attr name="contentText" format="string"/>
+    </declare-styleable>
+
+</resources>
