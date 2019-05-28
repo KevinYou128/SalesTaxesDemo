@@ -6,7 +6,7 @@
 
 2.使用Android Studio导入项目并运行
 ## 预览
-
+![预览图片](https://github.com/KevinYou128/SalesTaxesDemo/blob/master/preview/Screenshot_20190528-151151.png)
 ## 使用
 1.打开APP
 
