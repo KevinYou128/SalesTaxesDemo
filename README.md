@@ -2,7 +2,11 @@
 消费税计算demo
 # 测试
 ## 获取 
-使用Android Studio导入项目并运行
+1.[下载APK](https://www.pgyer.com/SalesTaxesDemo)
+
+2.使用Android Studio导入项目并运行
+## 预览
+
 ## 使用
 1.打开APP
 
