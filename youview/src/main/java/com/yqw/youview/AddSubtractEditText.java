@@ -15,7 +15,7 @@ import android.widget.Toast;
 import com.yqw.youview.utils.NumUtils;
 
 /**
- * 加了一个X点击清空输入框的功能的EditText
+ * 加减功能的EditText
  *
  * @Author youqinwei
  * <!--visibilityDown VISIBLE==0 GONE==8-->
@@ -79,7 +79,7 @@ public class AddSubtractEditText extends ConstraintLayout {
         tv_subtract.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-                if ((num - 1) >= 0) {
+                if (num > 0) {
                     num--;
                     editText.setText(String.valueOf(num));
                 } else {
@@ -115,6 +115,7 @@ public class AddSubtractEditText extends ConstraintLayout {
 
     public void setText(String text) {
         if (null != text) {
+            num = NumUtils.string2int(text);
             editText.setText(String.valueOf(text));
         }
     }
