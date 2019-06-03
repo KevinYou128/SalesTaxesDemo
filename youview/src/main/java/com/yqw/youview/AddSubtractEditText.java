@@ -72,6 +72,11 @@ public class AddSubtractEditText extends ConstraintLayout {
         tv_add.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
+                //获取输入框焦点
+                editText.setFocusable(true);
+                editText.setFocusableInTouchMode(true);
+                editText.requestFocus();
+
                 num++;
                 editText.setText(String.valueOf(num));
             }
@@ -79,6 +84,11 @@ public class AddSubtractEditText extends ConstraintLayout {
         tv_subtract.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
+                //获取输入框焦点
+                editText.setFocusable(true);
+                editText.setFocusableInTouchMode(true);
+                editText.requestFocus();
+
                 if (num > 0) {
                     num--;
                     editText.setText(String.valueOf(num));
@@ -122,5 +132,12 @@ public class AddSubtractEditText extends ConstraintLayout {
 
     public void addTextChangedListener(TextWatcher textWatcher) {
         editText.addTextChangedListener(textWatcher);
+    }
+    public void removeTextChangedListener(TextWatcher textWatcher){
+        editText.removeTextChangedListener(textWatcher);
+    }
+
+    public void setOnFocusChangeListener(OnFocusChangeListener onFocusChangeListener){
+        editText.setOnFocusChangeListener(onFocusChangeListener);
     }
 }

@@ -249,7 +249,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onMessageEvent(MessageEvent event) {
-        if (CONSTANT.MESSAGE_EVENT_UPDATA.equals(event.getMsg())) {
+        if (CONSTANT.MESSAGE_EVENT_UPDATE.equals(event.getMsg())) {
             output(productListAdapter.getData());
         }
     }
